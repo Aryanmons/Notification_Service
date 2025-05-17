@@ -24,7 +24,7 @@ async function startConsumer() {
 
           if (notification.email) {
             await sendEmail(
-              notification.email,                // fixed order: email first
+              notification.email,                
               notification.subject || 'No Subject',
               notification.message
             );
