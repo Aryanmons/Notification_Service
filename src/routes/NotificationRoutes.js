@@ -15,7 +15,7 @@ router.post('/', async (req, res) => {
       userId,
       type,
       message,
-      phone,                  // include phone here
+      phone,                 
       status: 'pending',
       createdAt: new Date(),
     };
