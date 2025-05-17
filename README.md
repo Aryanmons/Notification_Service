@@ -14,6 +14,17 @@ This project implements a **Notification Service** that supports sending notific
 - Implements **retry logic** for failed notification deliveries.
 
 ---
+### 🧪 Test the API with Postman
+
+You can explore and test the Notification Service API using this Postman collection:
+
+👉 [Open in Postman](https://www.postman.com/aryan-9081987/postman-node/request/hxkgkqq/new-request-copy?tab=body)
+
+- 📬 **Send Notifications** via Email, SMS, or In-App  
+- 📥 **Retrieve User Notifications** easily  
+- ✅ Perfect for testing request structure, headers, and body format
+
+---
 
 ## Technologies Used
 - Node.js
