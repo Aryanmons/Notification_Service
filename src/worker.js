@@ -28,7 +28,7 @@ async function startWorker() {
         channel.ack(msg);
       } catch (err) {
         console.error('Failed to save notification:', err);
-        // You can retry or dead-letter here if needed
+
         channel.nack(msg, false, true);
       }
     }
