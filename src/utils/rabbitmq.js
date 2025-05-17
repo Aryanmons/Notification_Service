@@ -10,7 +10,7 @@ async function connectRabbitMQ() {
     console.log('Connected to RabbitMQ and queue asserted');
   } catch (err) {
     console.error('Failed to connect to RabbitMQ:', err);
-    throw err;  // throw so calling code can handle failure
+    throw err; 
   }
 }
 
